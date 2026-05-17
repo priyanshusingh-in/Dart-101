@@ -6,4 +6,6 @@ void main() {
   print(
     "My name is $name, my registration number is $RegNum and I am from $location.",
   );
+
+  print(location.runtimeType);
 }
